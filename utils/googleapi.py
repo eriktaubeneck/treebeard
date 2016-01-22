@@ -5,8 +5,6 @@ from slackbot import settings
 
 
 def image_search(search_term):
-    #tmp
-    return None
     params = {
         'q': search_term,
         'num': 1,

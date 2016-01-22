@@ -4,4 +4,4 @@ venvpypy
 .coverage
 build
 dist
-ordbok.egg-info
+local_settings.py

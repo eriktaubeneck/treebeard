@@ -20,7 +20,7 @@ def image_search(search_term):
         params=params
     )
     j = r.json()
-    results = j['items']
+    results = j.get('items')
     if not results:
         return
     result = results[0]
